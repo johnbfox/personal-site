@@ -17,12 +17,12 @@ Beige: #be6bd81
 
 @font-face {
     font-family: Raleway-Light;
-    src: url(../Raleway-Light.otf);
+    src: url(../fonts/Raleway-Light.otf);
 }
 
 @font-face{
 	font-family: Aleo;
-	src: url(../Aleo-Regular.otf);
+	src: url(../fonts/Aleo-Regular.otf);
 }
 
 h1{
