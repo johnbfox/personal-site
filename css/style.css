@@ -16,8 +16,8 @@ Beige: #be6bd81
 
 
 @font-face {
-    font-family: Raleway-Light;
-    src: url(../fonts/Raleway-Light.otf);
+    font-family: 'Open Sans'-Light;
+    src: url(../fonts/'Open Sans'-Light.otf);
 }
 
 @font-face{
@@ -65,7 +65,7 @@ p{
 }
 
 .sans{
-	font-family: Raleway-Light, sans-serif;
+	font-family: 'Open Sans'-Light, sans-serif;
 }
 
 #header{
@@ -91,7 +91,7 @@ p{
 }
 
 ul.nav{
-	font-family: Raleway-Light, sans-serif;
+	font-family: 'Open Sans'-Light, sans-serif;
 	color: #FFFFFF;
 	font-size: 26px;
 	float: right;
@@ -143,7 +143,7 @@ ul.mob-nav{
 li.mob-nav{
 	padding: 15px;
 	border-bottom: solid 1px white;
-	font-family: Raleway-Light, sans-serif;
+	font-family: 'Open Sans'-Light, sans-serif;
 	font-size: 20px;
 }
 
@@ -259,7 +259,7 @@ img.portfolio{
 .port-info{
 	position: absolute;
 	color: white;
-	font-family: Raleway-Light, sans-serif;
+	font-family: 'Open Sans'-Light, sans-serif;
 	z-index: 3;
 	left: 15px;
 	top: 30px;
@@ -372,14 +372,14 @@ input.field{
 	border-radius: 0px;
 	height: 50px;
 	margin-top: 20px;
-	font-family: Raleway-Light, sans-serif;
+	font-family: 'Open Sans'-Light, sans-serif;
 	font-size: 18px;
 }
 
 textarea.field {
 border-radius: 0px;
 margin-top: 20px;
-font-family: Raleway-Light, sans-serif;
+font-family: 'Open Sans'-Light, sans-serif;
 font-size: 18px;
 }
 
@@ -435,7 +435,7 @@ img.contact{
 
 span.contact{
 	font-size: 26px;
-	font-family: Raleway-Light, sans-serif;
+	font-family: 'Open Sans'-Light, sans-serif;
 	margin-left: 30px;
 	float: left;
 }
@@ -479,7 +479,7 @@ span.footer{
 	display: block;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	font-family: Raleway-Light, sans-serif;
+	font-family: 'Open Sans'-Light, sans-serif;
 	font-size: 20px;
 }
 
