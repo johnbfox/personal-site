@@ -21,8 +21,8 @@ Beige: #be6bd81
 
 h1{
 	font-size: 62px;
-	text-align: center;
 	margin-top: 100px;
+  text-align: center;
 }
 
 h2{
@@ -150,6 +150,14 @@ li.mob-nav:hover{
 	height: 100%;
 	width: 100%;
 	float: left;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title-container{
+  max-width: 500px;
 }
 
 .header-description{
@@ -172,11 +180,10 @@ li.mob-nav:hover{
 }
 
 img.arrow{
-	width: 70px;
-	display: block;
-	margin:auto;
-	margin-top: 170px;
 	cursor: pointer;
+  width: 70px;
+  height: 50px;
+  margin-top:36px;
 }
 
 #info-1{
