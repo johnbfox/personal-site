@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	
+
 	var headerHeight = $("#header").height();
 	var mobileToggled = false;
 
@@ -13,14 +13,15 @@ $(document).ready(function(){
 	$("p.description").css("margin-top", $("img.portfolio").height()/3);
 	$("ul.mob-nav").hide();
 	$(".message-feedback").hide();
-	$(".spinner").hide();	
+	$(".spinner").hide();
 
-	//$(".message-feedback").css("height", $("#email-form").height());	
+	//$(".message-feedback").css("height", $("#email-form").height());
 	$(".message-feedback").css("height", "" + ($("#email-form").height()-76) + "px");
-	$("#email-form").css("height", "" + ($("#email-form").height()) + "px");		
+	$("#email-form").css("height", "" + ($("#email-form").height()) + "px");
 
 	if($(window).width() <= 600){
 		$("ul.nav").hide();
+		$("#mobile-menu").show();
 		setMobileStyles();
 	}else{
 		$("#mobile-menu").hide();
@@ -45,7 +46,7 @@ $(document).ready(function(){
 		$(".overlay").css("width", $("img.portfolio").width());
 		$(".port-info").css("height", $("img.portfolio").height());
 		$(".port-info").css("width", $("img.portfolio").width());
-		$("p.description").css("margin-top", $("img.portfolio").height()/3);				
+		$("p.description").css("margin-top", $("img.portfolio").height()/3);
 	});
 
 	$("#mobile-menu").click(function(){
@@ -109,14 +110,14 @@ $(document).ready(function(){
 
 
 
-	
+
 
 	var $bgobj = $('#main-image');
 
 	var yPos = -($(window).scrollTop() / $bgobj.data('speed'));
     	var coords = '50% '+ yPos + 'px';
         $bgobj.css({ backgroundPosition: coords });
-	
+
 	$(window).scroll(function(){
 		var yPos = -($(window).scrollTop() / $bgobj.data('speed'));
     	var coords = '50% '+ yPos + 'px';
@@ -126,9 +127,9 @@ $(document).ready(function(){
 
 	var controller = $.superscrollorama();
 
-	controller.addTween('#info-1', 
+	controller.addTween('#info-1',
 	    TweenMax.from($('.row.info.one'), .5, {css:{opacity:0}}));
-	controller.addTween('#info-1', 
+	controller.addTween('#info-1',
 	    TweenMax.from($('.row.info.two'), .5, {css:{opacity:0}}));
 
 	$(".portfolio-item").hover(function(){
@@ -140,7 +141,7 @@ $(document).ready(function(){
 	$(window).scroll(function(){
                 adjustScroll();
             });
-	
+
 	function setMobileStyles(){
 		$(".header-description").css("margin-top", "100px");
 		$("h1.main").css("font-size", "40px");
