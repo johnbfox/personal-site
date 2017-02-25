@@ -166,7 +166,7 @@ $(document).ready(function(){
 		$(".header-description").css("margin-top", "180px");
 		$("h1.main").css("font-size", "62px");
 		$(".header-description").css("margin-top", "180px");
-		$(".head-description").css("font-size", "32px");
+		$(".head-description").css("font-size", "30px");
 		$("h2.info-header").css("font-size", "58px");
 		$("h2.info-header").css("margin-top", "150px");
 		$("p.info-description").css("font-size", "33px");
